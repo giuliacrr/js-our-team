@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://cdn.wallpapersafari.com/78/64/eVH72A.jpg);
+  background-color: rgba(31, 46, 4, 0.5);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: rgba(235, 235, 235, 0.25);
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 25px;
+  padding: 20px 25px;
+}
+
+#cards-container {
+  max-width: 1200px;
+}
+
+.custom-color {
+  background-color: transparent;
+}
+
+.border-ow {
+  border: none;
+}
+
+.card-img-top:hover {
+  background-image: url(https://media.discordapp.net/attachments/1108426727308414988/1126424043021684738/7ro78n.gif);
+}
